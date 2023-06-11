@@ -7,6 +7,12 @@ pipeline{
                 sh 'echo Build is successful'
             }
         }
-    }
+    stage('deploy'){
+            steps{
+                sh 'echo deploy'
+            }
+        }
+}
+
 }
 
