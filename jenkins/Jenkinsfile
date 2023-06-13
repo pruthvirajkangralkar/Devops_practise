@@ -10,7 +10,7 @@ pipeline{
         }
         stage('deploy'){
             steps{
-                sh "echo deploy is successful"
+                sh "echo deploy is successfull"
             }
         }
             
