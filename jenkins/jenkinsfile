@@ -13,9 +13,9 @@ pipeline{
                 }
         }    
 
-	stage ('Test'){
+	stage ('test'){
             steps{
-                sh 'echo test  is sucessfull'
+                sh 'echo test now is sucessfull'
                 }
         }
 
