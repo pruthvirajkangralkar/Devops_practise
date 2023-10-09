@@ -4,8 +4,14 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh 'echo Build is successful'
+                sh 'echo Build is now successful'
             }
         }
+        stage ('deploy'){
+            steps{
+                sh 'echo deploy is sucessfull'
+                }
+        }    
+
     }
 }
